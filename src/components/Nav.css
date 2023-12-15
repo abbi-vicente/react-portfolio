@@ -1,0 +1,56 @@
+.header {
+	width: 100%;
+	height: 7vh;
+	top: 0;
+	position: fixed;
+	border-bottom: 1px solid #a2d5ab;
+	background-color: rgb(35, 30, 31);
+	line-height: 7vh;
+}
+.header h3 {
+	margin: 0 0 0 10vh;
+	position: fixed;
+	align-self: baseline;
+}
+.header h3 a {
+	text-decoration: none;
+	decoration: none;
+	color: #eee;
+	align-self: flex-end;
+	text-transform: uppercase;
+}
+.header h3 a:hover {
+	color: #a2d5ab;
+}
+.nav {
+	height: 7vh;
+	border-bottom: 1px solid #a2d5ab;
+	text-align: right;
+	line-height: 7vh;
+}
+#toggle {
+	display: none;
+}
+label {
+	width: 2.6vh;
+	margin: 0 4vh 0 0;
+	font-size: 2.6vh;
+	line-height: 7vh;
+	display: none;
+	float: right;
+	color: #eee;
+}
+.menu {
+	margin: 0 3vh 0 0;
+}
+.menu a {
+	margin: 0 1vh;
+	clear: right;
+	text-decoration: none;
+	color: #eee;
+	line-height: 70px;
+}
+.menu a:hover {
+	background-color: rgb(35, 30, 31);
+	color: #a2d5ab;
+}

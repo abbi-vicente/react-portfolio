@@ -1,0 +1,67 @@
+#landing {
+	height: 100%;
+	max-width: 100%;
+	background-image: url("../img/e43e1b221fd960003dc27d2f2f1b8ce1.gif");
+	background-repeat: no-repeat;
+	background-color: rgb(35, 30, 31);
+}
+.landing {
+	width: 70vw;
+	margin: 2vh auto 0 auto;
+	padding-top: 2%;
+	border-radius: 1.5vh;
+}
+.container-greeting {
+	padding-top: 15vh;
+}
+.greeting {
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	color: #a2d5ab;
+	font-size: 1.25em;
+}
+h1 {
+	color: rgb(237, 237, 237);
+	text-align: center;
+	align-items: center;
+	font-size: 5em;
+}
+/* Buttons to take you to about section and to view all projects */
+.about-button,
+.projects-button {
+	height: 3vh;
+	display: flex;
+	justify-content: center;
+	margin-top: 2vh;
+}
+button a {
+	font-size: 2vh;
+	text-decoration: none;
+	decoration: none;
+	color: black;
+	background-color: #a2d5ab;
+}
+button a:hover {
+	font-size: 2vh;
+	text-decoration: none;
+	decoration: none;
+	background-color: #e5efc1;
+	color: black;
+}
+/* Social Media buttons */
+.socials {
+	margin-top: 8%;
+	display: flex;
+	justify-content: center;
+	gap: 2%;
+}
+.socials img {
+	height: 6vh;
+	margin: 2%;
+}
+.facebook:hover,
+.linkedin:hover,
+.gitlab:hover {
+	opacity: 0.5;
+}
